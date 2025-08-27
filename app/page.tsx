@@ -1,9 +1,10 @@
-import Header from "./components/Header";
+
+import Dashboard from "./dashboard/page";
 
 export default function Home() {
   return (
-    <>
-      <Header pageTitle="Next.js" />
-    </>
+    <div>
+      <Dashboard />
+    </div>
   );
 }
